@@ -17,3 +17,7 @@ export default defineConfig({
   plugins: [react()]
 })
 ```
+## In App.jsx file (front end) you need to see the backend data  for that we just write /api/'name'
+
+
+###and as  we have two different local host servers from backend (localhost/3000) and frontend (localhost/5127) we cant send the data directly beacuse of (CORS) instead we use proxy. 
